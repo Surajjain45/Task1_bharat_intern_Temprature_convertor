@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2c04495fe2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="box">   
+   <div class="container">
+  
+    
+    <heading>Temprature converter</heading>
+    <div class="input">
+    <div class="input_des">Enter Temprature</div>
+    <input type="number" class="input_no" value="">
+    <p class="error">Please enter some Temprature</p>
+</div>
+   
+
+    <div class="input_currency_box">
+        <div class="from">
+            <div class="from_des">From</div>
+       
+            <div class="select_box" index = "0">
+           
+            <span class="new_icon"><i class="fa-solid fa-c"></i></span>            
+            <select class="units" value="Celcius">
+               
+                <option value="c">Celcius</option> 
+                <option value="f">Fahrenite</option> 
+                <option value="k">Kelvin</option> 
+            </select>
+        </div>
+    </div>
+        <i class="fa-solid fa-arrow-right-arrow-left swap_icon"></i>
+
+        <div class="to">
+            <div class="to_des">To</div>
+            <div class="select_box" index = "1">
+            <span class="new_icon"><i class="fa-solid fa-c"></i></span>                
+            <select class="units" value = "Fahrenite">
+
+                <option value="c">Celcius</option> 
+                <option value="f">Fahrenite</option> 
+                <option value="k">Kelvin</option> 
+            </select>
+        </div>
+    </div>
+</div>
+
+    <div class="output">
+        Temprature after conversion: </span><span class="result">°<span class="output_icon"></span></span>
+    </div>
+
+    <button class="get_rate">Convert</button>
+
+
+    
+   </div>
+</div>
+
+  <script src="script.js"></script>
+    
+</body>
+</html>
